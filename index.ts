@@ -2,7 +2,7 @@ import express, { Application, Request, Response } from 'express'
 import { SerialPort } from 'serialport';
 
 const sp = new SerialPort({
-    path: "/dev/tty.usbserial-14430",
+    path: process.argv[2],
     baudRate: 115200,
     //dataBits: 8,
     //stopBits: 1,
