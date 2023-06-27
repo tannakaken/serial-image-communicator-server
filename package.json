@@ -1,0 +1,21 @@
+{
+  "name": "serial-image-communicator-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@serialport/parser-readline": "^11.0.0",
+    "express": "^4.18.2",
+    "serialport": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.2",
+    "@types/serialport": "^8.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
